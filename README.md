@@ -74,3 +74,7 @@ Alternative Hypothesis: The MechaCar has an NHTSA rating of 5 stars.
 **Statistical Tests**
 
 Comparing the MechaCar to other models by conducting a two-sample t-test would be the most direct way to determine whether our hypotheses are supported or not, because we can calculate the p-value in R and compare it to a high degree of statistical significance in order to measure the safety of the MechaCar and either reject or fail to reject the null hypothesis. In the case of the latter, if the MechaCar is deemed unsafe, then further development can begin to take place until the vehicle is ready.
+
+**Data**
+
+In order to conduct this test, we would need data on the total number of recalls, investigations, and customer complaints from both the MechaCar and comparable models from other competitors. From there we could calculate the safety rating of the MechaCar according to NHTSA guidlines to determine whether our hypothesis is supported or rejected.
