@@ -57,6 +57,20 @@ The t-test shows there is not enough evidence to reject the null hypothesis sinc
 
 Lot 1 had a p-value of 1 and Lot 2 had a p-value of 0.60, so we cannot reject the null hypothesis. For Lot 3, the sample mean is 1496.14 with a p-Value of 0.04, lower than the significance level of 0.05. This indicates that the sample mean and the presumed population mean are not statistically different.
 
+## Study Design: MechaCar vs Competition
 
+Another statistical study that could be performed that quantifies how the MechaCar performs against its competition would be one that measures its **safety rating**, to determine whether the MechaCar is a safer model compared to its competitors.
 
+**Metrics**
 
+The National Highway Traffic Safety Administration is the agency responsible for evaluating new cars and rating them on a 5-star scale, based on the car's total number of recalls, investigations, and customer complaints. Using these metrics, I could use data from the NHTSA database and compare the MechaCar to other models.
+	
+**Hypothesis** 
+
+Null Hypothesis: The MechaCar does not have an NHTSA rating of 5 stars.
+
+Alternative Hypothesis: The MechaCar has an NHTSA rating of 5 stars.
+
+**Statistical Tests**
+
+Comparing the MechaCar to other models by conducting a two-sample t-test would be the most direct way to determine whether our hypotheses are supported or not, because we can calculate the p-value in R and compare it to a high degree of statistical significance in order to measure the safety of the MechaCar and either reject or fail to reject the null hypothesis. In the case of the latter, if the MechaCar is deemed unsafe, then further development can begin to take place until the vehicle is ready.
