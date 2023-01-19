@@ -35,5 +35,28 @@ The `Suspension_Coil.csv` file contains data on the results of testing weight ca
 
 From the results above, it can be concluded that because the design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch, **Lot 1** and **Lot 2** meet design specifications, having very close **mean** and **median** values, with variances of **0.97** and **7.47**. However, **Lot 3** has the most variance amongst the three, **170.28** and does not meet the manufacturing expectations.
 
+## T-Tests on Suspension Coils
+
+T-tests were conducted on the `Suspension_Coil.csv` to determine if there is a **statistical difference** on this dataset. Using the sample population mean of **1500**, these are my findings:
+
+<img width="441" alt="Screen Shot 2023-01-19 at 2 01 33 PM" src="https://user-images.githubusercontent.com/113553238/213536165-e1a75eff-7638-46f1-a0af-5ac9f43efc43.png">
+
+The t-test shows there is not enough evidence to reject the null hypothesis since the p-value for all manufacturing lots is 0.06028 higher than the common significance level of 0.05.
+
+**T-Test for Lot 1**
+
+<img width="523" alt="Screen Shot 2023-01-19 at 2 02 07 PM" src="https://user-images.githubusercontent.com/113553238/213536653-dfd72200-79d5-40ec-8dd4-a2c68a402a03.png">
+
+**T-Test for Lot 2**
+
+<img width="514" alt="Screen Shot 2023-01-19 at 2 01 56 PM" src="https://user-images.githubusercontent.com/113553238/213536654-77bf8621-65a0-457b-81b5-5e795da0a644.png">
+
+**T-Test for Lot 3**
+
+<img width="515" alt="Screen Shot 2023-01-19 at 2 01 46 PM" src="https://user-images.githubusercontent.com/113553238/213536656-674b3a41-bbcc-4250-8d4f-ab13a510865c.png">
+
+Lot 1 had a p-value of 1 and Lot 2 had a p-value of 0.60, so we cannot reject the null hypothesis. For Lot 3, the sample mean is 1496.14 with a p-Value of 0.04, lower than the significance level of 0.05. This indicates that the sample mean and the presumed population mean are not statistically different.
+
+
 
 
